@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 20vh;
+    background-color: rgb(255, 0, 0);
+}
+main{
+    min-height: 200vh;
+    background-color: rgba(0, 128, 0, 0.491);
+}
+footer{
+    height: 30vh;
+    background-color: rgba(0, 0, 255, 0.481);
+}
+body{
+    padding-top: 19.5vh;
+    background-image: url("./https://bipbap.ru/wp-content/uploads/2021/04/1610506297_20-p-prikolnii-zadnii-fon-44-730x456.jpg");
+    background-attachment: fixed;
+}
+.row{
+    height: 100%;
+}
+.row>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards, .col-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.left_section, .right_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    gap: 15px;
+}
+.card{
+    border-radius: 20px !important;
+    width: 30vw !important;
+}
